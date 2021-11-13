@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/HamSungJun/About-Refactoring/issues"
   },
-  "homepage": "https://github.com/HamSungJun/About-Refactoring#readme"
+  "homepage": "https://github.com/HamSungJun/About-Refactoring#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1"
+  }
 }
