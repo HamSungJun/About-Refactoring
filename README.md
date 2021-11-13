@@ -28,8 +28,8 @@
 
 - 1_statement
 
-  - 예제코드
+  - [예제코드](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/legacy.js)
   
-  - 나의 리팩토링
+  - [나의 리팩토링](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/self/index.js)
   
   - 책의 리팩토링
