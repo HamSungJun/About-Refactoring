@@ -1,4 +1,30 @@
-// [DESC] 공연 가격표와 고객이 선택한 공연과 청중수를 확인하여 청구 내역을 출력해주는 프로그램
+/**
+ * 함수 추출하기.
+ * amountFor 함수를 추출하기
+ */
+
+function amountFor (perf, play) {
+  let thisAmount = 0
+  switch (play.type) {
+    case 'tragedy':
+      thisAmount = 40000
+      if (perf.audience > 30) {
+        thisAmount += 1000 * (perf.audience - 30)
+      }
+      break
+    case 'comedy':
+      thisAmount = 30000
+      if (perf.audience > 20) {
+        thisAmount += 10000 + 500 * (perf.audience - 20)
+      }
+      thisAmount += 300 * perf.audience
+      break
+    default:
+      throw new Error(`알 수 없는 장르: ${play.type}`)
+  }
+  return thisAmount
+}
+
 export function statement (plays, invoice) {
   let totalAmount = 0
   let volumeCredits = 0
@@ -9,25 +35,7 @@ export function statement (plays, invoice) {
 
   for (const perf of invoice.performances) {
     const play = plays[perf.playID]
-    let thisAmount = 0
-
-    switch (play.type) {
-      case 'tragedy':
-        thisAmount = 40000
-        if (perf.audience > 30) {
-          thisAmount += 1000 * (perf.audience - 30)
-        }
-        break
-      case 'comedy':
-        thisAmount = 30000
-        if (perf.audience > 20) {
-          thisAmount += 10000 + 500 * (perf.audience - 20)
-        }
-        thisAmount += 300 * perf.audience
-        break
-      default:
-        throw new Error(`알 수 없는 장르: ${play.type}`)
-    }
+    const thisAmount = amountFor(perf, play)
 
     volumeCredits += Math.max(perf.audience - 30, 0)
     if (play.type === 'comedy') {

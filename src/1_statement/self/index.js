@@ -1,5 +1,3 @@
-import { plays, invoice } from '../variables.js'
-
 // [DESC] 자주 사용될 것으로 예상되는 파라미터를 기본값 매개변수로 지정하고 다양한 통화 포멧터 함수를 발급받을 수 있게 작성했다.
 const getIntlFormatter = (
   locale = 'en-US',
