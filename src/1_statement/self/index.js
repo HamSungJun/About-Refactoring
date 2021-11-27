@@ -15,7 +15,7 @@ const generateStatement = ({ customer = '', charges = [], pointsEarned = 0, tota
   const paymentLines = charges.map(({ playName, playCharge, audience }) => (
         `  ${playName}: ${toUSD(playCharge)} (${audience}석)`
   ))
-  const metaLines = [`총액: ${toUSD(totalCharge)}`, `적립 포인트: ${pointsEarned}점`]
+  const metaLines = [`총액: ${toUSD(totalCharge)}`, `적립 포인트: ${pointsEarned}점`, '']
 
   return [
     customerLine,
@@ -57,7 +57,7 @@ const calcPerformanceChargeByType = (playType, audience) => {
   }
 }
 
-function statement (invoice, plays) {
+export function statement (plays, invoice) {
   const charges = []
   let totalCharge = 0
   let pointsEarned = 0
@@ -77,5 +77,3 @@ function statement (invoice, plays) {
     totalCharge
   })
 }
-
-console.log(statement(invoice, plays))

@@ -1,7 +1,7 @@
 import { plays, invoice } from './variables.js'
 
 // [DESC] 공연 가격표와 고객이 선택한 공연과 청중수를 확인하여 청구 내역을 출력해주는 프로그램
-function statement (plays, invoice) {
+export function statement (plays, invoice) {
   let totalAmount = 0
   let volumeCredits = 0
   let result = `청구 내역 (고객명: ${invoice.customer})\n`
@@ -43,5 +43,3 @@ function statement (plays, invoice) {
   result += `적립 포인트: ${volumeCredits}점\n`
   return result
 }
-
-console.log(statement(plays, invoice))
