@@ -33,3 +33,13 @@
   - [나의 리팩토링](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/self/index.js)
   
   - 책의 리팩토링
+
+    - [test](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/book/step.test.js)
+
+    - [step.1](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/book/step1.js)
+
+    - [step.2](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/book/step2.js)
+
+    - [step.3](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/book/step3.js)
+
+    - [step.4](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/book/step4.js)
