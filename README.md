@@ -43,3 +43,9 @@
     - [step.3](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/book/step3.js)
 
     - [step.4](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/book/step4.js)
+
+    - [step.5](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/book/step5.js)
+
+    - [step.6](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/book/step6.js)
+
+  - [회고](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/retrospect.md)
