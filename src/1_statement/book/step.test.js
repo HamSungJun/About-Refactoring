@@ -4,6 +4,7 @@ import { statement as step2Statement } from './step2'
 import { statement as step3Statement } from './step3'
 import { statement as step4Statement } from './step4'
 import { statement as step5Statement } from './step5'
+import { statement as step6Statement } from './step6'
 import { plays, invoice } from '../variables'
 
 /**
@@ -29,4 +30,8 @@ test('기존 statement 함수의 실행결과와 리팩토링 step4Statement 함
 
 test('기존 statement 함수의 실행결과와 리팩토링 step5Statement 함수의 실행결과는 동일하다.', () => {
   expect(step5Statement(plays, invoice)).toBe(legacyStatement(plays, invoice))
+})
+
+test('기존 statement 함수의 실행결과와 리팩토링 step6Statement 함수의 실행결과는 동일하다.', () => {
+  expect(step6Statement(plays, invoice)).toBe(legacyStatement(plays, invoice))
 })
