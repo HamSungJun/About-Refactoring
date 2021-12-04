@@ -49,3 +49,5 @@
     - [step.6](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/book/step6.js)
 
   - [회고](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/retrospect.md)
+
+- [2_principle](https://github.com/HamSungJun/About-Refactoring/blob/master/src/2_principle/readme.md)
