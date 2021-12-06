@@ -51,3 +51,5 @@
   - [회고](https://github.com/HamSungJun/About-Refactoring/blob/master/src/1_statement/retrospect.md)
 
 - [2_principle](https://github.com/HamSungJun/About-Refactoring/blob/master/src/2_principle/readme.md)
+
+- [3_stink](https://github.com/HamSungJun/About-Refactoring/blob/master/src/3_stink/retrospect.md)
