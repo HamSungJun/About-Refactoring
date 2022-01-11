@@ -5,7 +5,7 @@
 `Github Actions` 를 통해서 자동화 CI를 수행하게 되는데 이때 테스트를 수행할 수 있는 `NPM Scripts` 가 구성이 되어있습니다.
 
 - @testing-library/react 를 통한 컴포넌트 테스팅
-- @testing-library/react-hooks 를 통한 커스텀 리액트 훅 테스팅
+- @testing-library/react-hooks 를 통한 [커스텀 리액트 훅](https://github.com/h1tchh1k3r/Adventure/tree/develop/src/Hooks/UseImmer) 테스팅
 
 위의 두가지 절차를 수행합니다.
 
