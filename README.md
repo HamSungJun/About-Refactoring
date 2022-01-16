@@ -53,3 +53,5 @@
 - [3_stink](https://github.com/HamSungJun/About-Refactoring/blob/master/src/3_stink/retrospect.md)
 
 - [4_testing](https://github.com/HamSungJun/About-Refactoring/blob/master/src/4_testing/retrospect.md)
+
+- [6_basics](https://github.com/HamSungJun/About-Refactoring/blob/master/src/6_basics/retrospect.md)
